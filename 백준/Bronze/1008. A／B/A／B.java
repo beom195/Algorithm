@@ -12,6 +12,8 @@ public class Main{
         if (a <= 10 && b > 0){
 
             System.out.println(a/b);
+        }else {
+            System.out.println("10이하 0이상의 수를 입력하세요");
         }
     }
 }
