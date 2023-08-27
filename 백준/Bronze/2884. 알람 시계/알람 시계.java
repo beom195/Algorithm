@@ -16,7 +16,7 @@ public class Main {
         if(m >= 45){
             m -= 45;
             System.out.println(h+" "+m);
-        }else if (m > -60 && m < 45) {
+        }else if (m < 45) {
             // 45분 미만일 경우 1시간이 줄어들기 때문에 h-1을 해준다
             h -= 1;
 
