@@ -10,10 +10,12 @@ public class Main {
 
         for(int i = 1; i <= N; i++){
             result += "*";
-            System.out.println(result);
+            bw.write(result);
+            bw.newLine();
         }
 
-
+        bw.flush();
+        bw.close();
         br.close();
     }
 }
